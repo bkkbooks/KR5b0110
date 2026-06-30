@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0110/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0110/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清太上八素真經
+  date: '2015-08-28 23:49:32.995855'
+  source:
+    repository: kanripo
+    path: KR5b0110
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0110_000-ZTDZ.yaml, hash: 'sha256:5323f96de0bbf8e9b9395c7851622fad3b2c1506486e0339ac7859b744dc5733'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0110_000-ZTDZ.markers.yaml, hash: 'sha256:6a747614c91dfcc93cf3fd31791b23b5bc3ca1b2fdb5b84e28b9c4366523e729'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0110_SJB_000-060648c
+    span:
+    - body
+    - 0
+    - 8673
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7d860945f41470dba8e65f80cdd2d59d35e92fe3b47f7fa2fff55e7c507ad91a
